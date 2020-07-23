@@ -1,12 +1,12 @@
 ## Author: Vince Keiper
-### Description: FolgerTech_With_MarlinFW
+### Description: FolgerTech I3 2020 w/ MPX .3 controller running the latest updated Marlin firmware from th Google drive link from FT. 
 
 
 Installation Notes: 
-1. Extract files to desired folder. 
+1. Clone repo to desired folder. 
 2. Download Arduino IDE 1.6.5 and extract to desired folder. 
-(new versions will cause build errors)
-3. Open Arduino IDE. Select Tools, Board, Arduino/Genuino Mega or Mega 2650, Select Port 3(Could be different on your computer) 
+-newer versions will inject build errors, they can be resolved but easier to just use the intended IDE version.
+3. Open Arduino IDE. Select Tools, Board, Arduino/Genuino Mega or Mega 2650, then find the com port the MPX controller got assigned in Windows device manager. Usually COM3 isf running default settings in FW. The buad rate default is 250 Kbps, could be 115200 also 
 4. Open the firmware via the xxxxx.ino file located in the top folder  
 5. Upload the firmware via the Arduino upload button.
 
